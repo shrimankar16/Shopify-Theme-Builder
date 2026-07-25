@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_INSFORGE_URL": "@insforge-url",
+    "NEXT_PUBLIC_INSFORGE_ANON_KEY": "@insforge-anon-key",
+    "NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT": "@imagekit-url",
+    "NEXT_PUBLIC_APP_URL": "@app-url",
+    "NEXT_PUBLIC_INSFORGE_EXPORTS_BUCKET": "theme-exports",
+    "NEXT_PUBLIC_INSFORGE_THUMBNAILS_BUCKET": "project-thumbnails"
+  }
+}
